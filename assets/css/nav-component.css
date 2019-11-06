@@ -1,0 +1,24 @@
+.vertical {
+    writing-mode: vertical-lr; 
+    padding-left: 45%;  
+    padding-top: 10px; 
+}
+
+.nav{    
+    width: 32px;
+}
+
+.nav:hover{
+    --col-3-hover: rgba(93, 92, 94, 0.5);
+    background-color: var(--col-3-hover); 
+    color: #ADABB9;
+    text-decoration: none;   
+}
+
+@media screen and (max-width: 420px){
+    .nav{
+        width: 24px;
+    }
+}
+
+

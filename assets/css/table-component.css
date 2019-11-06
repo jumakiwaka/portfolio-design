@@ -1,0 +1,25 @@
+.table {
+    width: 100%;
+}
+
+.table td {
+    background-color: var(--body-bg);
+    border: 2px solid var(--col-3);
+}
+
+td.level{
+    display: hidden;
+}
+
+.table td:hover{
+    animation: displayLevel 2s;
+}
+
+@keyframes displayLevel{
+    from{
+        display: none; transform: scale(1);
+    }
+    to{
+        display: block; transform: scale(1.04);
+    }
+}

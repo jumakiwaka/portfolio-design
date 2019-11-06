@@ -1,0 +1,16 @@
+.about-me {
+    padding: 10px;
+}
+
+.about-me > button {
+    border: none;
+    background: var(--col-3);
+    color: #ADABB9;
+    width: 30%;
+    height: 60px;
+    cursor: pointer;
+}
+
+.about-me + div {
+    display: none;
+}
