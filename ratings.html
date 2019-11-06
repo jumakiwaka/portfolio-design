@@ -7,13 +7,20 @@
     <title>Feedback | comments</title>
 </head>
 <body>
-    <form action="">
+    <form action="/index.html">
         <fieldset>
             <legend>Please rate my skills </legend>
-            HTML <input type="checkbox" name="" id="">
-            CSS <input type="checkbox" name="" id="">
-            JAVASCRIPT <input type="checkbox" name="" id="">
+           <label> HTML <input type="range" name="" id="" value="100"></label><br>
+            <label>CSS <input type="range" name="" id="" value="100"></label><br>
+            <label>JAVASCRIPT <input type="range" name="" id="" value="100"></label><br>
         </fieldset>
+        <label for="comments">
+            Comments            
+        </label><br>
+        <textarea name="" id="comments" cols="30" rows="10">
+
+        </textarea><br>
+        <button type="submit" onclick="window.close()">Send</button>
     </form>
 </body>
 </html>
