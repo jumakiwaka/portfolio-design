@@ -1,16 +1,21 @@
 .about-me {
-    padding: 10px;
+  padding-left: 2vw;
+}
+
+.about-title {
+  padding-top: 10px;
+  padding-left: 2vw;
 }
 
 .about-me > button {
-    border: none;
-    background: var(--col-3);
-    color: #ADABB9;
-    width: 30%;
-    height: 60px;
-    cursor: pointer;
+  border: none;
+  background: var(--col-3);
+  color: #adabb9;
+  width: 30%;
+  height: 60px;
+  cursor: pointer;
 }
 
 .about-me + div {
-    display: none;
+  display: none;
 }
